@@ -1,0 +1,7 @@
+#to copy (first read and then write)
+f1=open("xyz.txt","r")
+print(f1.read())
+f=open("mno.txt","w")
+f.write(f1.read())
+f1.close()
+f.close()

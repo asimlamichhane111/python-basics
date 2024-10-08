@@ -1,0 +1,7 @@
+#to copy imagr (first read and then write)
+f1=open("a.jpg","rb")
+f1.read()
+f=open("b.jpg","wb")
+f.write(f1.read())
+f1.close()
+f.close()
